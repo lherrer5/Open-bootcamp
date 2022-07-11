@@ -9,3 +9,18 @@ while (i<=num) {
     i++;
     console.log(product)
 }
+
+// segunda opcion
+
+let n=10
+let resul=1
+
+    while(true){
+        if(n<=1){
+            break
+        };
+        resul=resul*n;
+        n=n-1;
+    }
+
+    console.log(resul)
